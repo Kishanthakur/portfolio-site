@@ -6,26 +6,29 @@ const Projects = () => {
   const projects = config.projects;
 
   return (
-    <div id={projects.title} className="px-8 md:px-32 pb-16 bg-white">
+    <div id={projects.title} className="px-8 md:px-32 pb-16 bg-white ">
       <h1 className="pt-12 uppercase font-bold text-center text-black text-bold text-4xl">
         {projects.title}
       </h1>
       <div className="projects__menu">
         <ul>
           {projects.projects.map((item) => (
-            <li key={item.title} className="flex flex-col lg:flex-row mt-12">
+            <li
+              key={item.title}
+              className="flex flex-col lg:flex-row mt-12 justify-center lg:items-center"
+            >
               <div className="lg:w-1/3">
                 <h2 className="text-2xl">{item.title}</h2>
                 <p className="mt-6">{item.description}</p>
                 <div className="mt-6">
                   <div className="flex space-x-4 justify-start">
-                      <>
-                        {item.technologies.map((tech) => (
-                          <div
-                            key={tech.alt}
-                            className="group flex flex-col items-center relative"
-                          >
-                            <div>
+                    <>
+                      {item.technologies.map((tech) => (
+                        <div
+                          key={tech.alt}
+                          className="group flex flex-col items-center relative"
+                        >
+                          <div>
                             <Image
                               className="w-12 h-12"
                               src={tech.image}
@@ -33,11 +36,13 @@ const Projects = () => {
                               width={48}
                               height={48}
                             />
-                            </div>
-                            <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute bottom-14 bg-white bg-opacity-80 px-2 py-1 rounded text-black text-center shadow-md">{tech.alt}</span>
                           </div>
-                        ))}
-                      </>
+                          <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute bottom-14 bg-white bg-opacity-80 px-2 py-1 rounded text-black text-center shadow-md">
+                            {tech.alt}
+                          </span>
+                        </div>
+                      ))}
+                    </>
                   </div>
                 </div>
                 <div className="flex mt-6">
