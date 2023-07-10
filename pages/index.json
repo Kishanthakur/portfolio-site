@@ -52,7 +52,7 @@
         "image" : "/icon-git2.jpg"
       },
       { 
-        "alt" : "Rest API",
+        "alt" : "REST API",
         "image" : "/icon-restapi.png"
       }
     ]
@@ -72,7 +72,7 @@
           "image" : "/icon-reactjs.png"
         },
         { 
-          "alt" : "Javascript",
+          "alt" : "JavaScript",
           "image" : "/icon-javascript2.png"
         },
         { 
@@ -88,8 +88,37 @@
     ]
   },
   "contact": {
-    "title": "Contact",
-    "formId": "mpzgzjwz"
+    "title" : "Let's Connect",
+    "contacts": [
+      {
+        "icon": "/icon-linkedin.png",
+        "alt": "Linkedin",
+        "heading": "Linkedin",
+        "subheading": "Work experience",
+        "url" : "https://www.linkedin.com/in/kishan-thakur-a97392182/"
+      },
+      {
+        "icon": "/icon-github.png",
+        "alt": "Github",
+        "heading": "Github",
+        "subheading": "All my repos",
+        "url" : "https://github.com/Kishanthakur"
+      },
+      {
+        "icon": "/icon-email.png",
+        "alt": "Email",
+        "heading": "Email",
+        "subheading": "connectwithkishanthakur@outlook.com",
+        "url" : "mailto:connectwithkishanthakur@outlook.com"
+      },
+      {
+        "icon": "/icon-twitter.png",
+        "alt": "Twitter",
+        "heading": "Twitter",
+        "subheading": "Random thoughts",
+        "url" : "https://twitter.com/badeythakur?t=m4YlgWjoUMFW-DbSvBIJZQ&s=09"
+      }
+    ]
   },
   "footer": {
 		"linkedin": "https://www.linkedin.com/in/kishan-thakur-a97392182/",
