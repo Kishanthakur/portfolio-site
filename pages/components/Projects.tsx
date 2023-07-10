@@ -24,8 +24,9 @@ const Projects = () => {
                         {project.technologies.map((tech) => (
                           <div
                             key={tech.alt}
-                            className="flex flex-col items-center"
+                            className="group flex flex-col items-center relative"
                           >
+                            <div>
                             <Image
                               className="w-12 h-12"
                               src={tech.image}
@@ -33,6 +34,8 @@ const Projects = () => {
                               width={48}
                               height={48}
                             />
+                            </div>
+                            <span className="opacity-0 group-hover:opacity-100 transition-opacity duration-300 absolute bottom-14 bg-white bg-opacity-80 px-2 py-1 rounded text-black text-center shadow-md">{tech.alt}</span>
                           </div>
                         ))}
                       </>
