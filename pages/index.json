@@ -1,0 +1,98 @@
+{
+  "navigation": [
+		{
+			"title": "About",
+			"url": "http://www.example.com/about"
+		},
+		{
+			"title": "Projects",
+			"url": "http://www.example.com/portfolio"
+		},
+		{
+			"title": "Contact",
+			"url": "http://www.example.com/contact"
+		},
+    {
+			"title": "Download Resume",
+			"url": "/Kishan_Thakur_Resume.pdf"
+		}
+
+	],
+  "hero": {
+    "name": "Kishan",
+    "subtitle": "I'm a Frontend Developer."
+  },
+  "about": {
+    "title": "About me",
+    "image": "/icon-profile.png",
+    "primary": "I'm Kishan Thakur, a Frontend Developer with over 2 years of experience in crafting user-friendly websites. My expertise includes HTML, CSS, JavaScript, and ReactJS, and I'm always eager to explore new technologies. I pride myself on my detail-oriented approach and commitment to quality. My experience ranges from creating a Marketing Data Collection Web Application to automating web testing processes, honing my technical skills and emphasizing the importance of teamwork and communication.",
+    "skills": [
+      { 
+        "alt" : "ReactJS",
+        "image" : "/icon-reactjs.png"
+      },
+      { 
+        "alt" : "Javascript",
+        "image" : "/icon-javascript2.png"
+      },
+      { 
+        "alt" : "HTML",
+        "image" : "/icon-html.png"
+      },
+      { 
+        "alt" : "CSS",
+        "image" : "/icon-css.png"
+      },
+      { 
+        "alt" : "Java",
+        "image" : "/icon-java2.png"
+      },
+      { 
+        "alt" : "Git",
+        "image" : "/icon-git2.jpg"
+      },
+      { 
+        "alt" : "Rest API",
+        "image" : "/icon-restapi.png"
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "projects": [
+      {
+        "title": "Marketing Data collection Web App",
+        "description": "The application includes a form for capturing customer details, tracking calls, and interest levels. Post submission, users are directed to a page displaying all data in a table for easy viewing and editing. A unique 'Today's Call' page shows contacts due for a call today, aiding in efficient daily management.",
+        "url": "https://prashant-machine-tools.netlify.app/",
+        "github": "https://github.com/Kishanthakur/prashant-machine-tools",
+        "image": "/image-project1.png",
+        "technologies" :[
+        { 
+          "alt" : "ReactJS",
+          "image" : "/icon-reactjs.png"
+        },
+        { 
+          "alt" : "Javascript",
+          "image" : "/icon-javascript2.png"
+        },
+        { 
+          "alt" : "CSS",
+          "image" : "/icon-css.png"
+        },
+        {
+          "alt" : "Firebase",
+          "image" : "/icon-firebase.png"
+        }
+      ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "formId": "mpzgzjwz"
+  },
+  "footer": {
+		"linkedin": "https://www.linkedin.com/in/kishan-thakur-a97392182/",
+		"github": "https://github.com/Kishanthakur"
+	}
+}
