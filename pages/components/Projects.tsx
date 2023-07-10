@@ -19,9 +19,8 @@ const Projects = () => {
                 <p className="mt-6">{item.description}</p>
                 <div className="mt-6">
                   <div className="flex space-x-4 justify-start">
-                    {projects.projects.map((project) => (
                       <>
-                        {project.technologies.map((tech) => (
+                        {item.technologies.map((tech) => (
                           <div
                             key={tech.alt}
                             className="group flex flex-col items-center relative"
@@ -39,7 +38,6 @@ const Projects = () => {
                           </div>
                         ))}
                       </>
-                    ))}
                   </div>
                 </div>
                 <div className="flex mt-6">
