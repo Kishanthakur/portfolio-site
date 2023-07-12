@@ -24,7 +24,7 @@
   },
   "about": {
     "title": "About me",
-    "image": "/icon-profile.png",
+    "image": "/profile-picture-kishan.png",
     "primary": "I'm Kishan Thakur, a Frontend Developer with over 2 years of experience in crafting user-friendly websites. My expertise includes HTML, CSS, JavaScript, and ReactJS, and I'm always eager to explore new technologies. I pride myself on my detail-oriented approach and commitment to quality. My experience ranges from creating a Marketing Data Collection Web Application to automating web testing processes, honing my technical skills and emphasizing the importance of teamwork and communication.",
     "skills": [
       { 
@@ -64,7 +64,7 @@
         "title": "1. Marketing Data collection Web App",
         "description": "The application includes a form for capturing customer details, tracking calls, and interest levels. Post submission, users are directed to a page displaying all data in a table for easy viewing and editing. A unique 'Today's Call' page shows contacts due for a call today, aiding in efficient daily management.",
         "url": "https://prashant-machine-tools.netlify.app/",
-        "github": "https://github.com/Kishanthakur/prashant-machine-tools",
+        "github": "https://github.com/kishanthakur/prashant-machine-tools",
         "image": "/image-project1.png",
         "technologies" :[
         { 
@@ -89,7 +89,7 @@
         "title": "2. Kishan Thakur - Portfolio Site",
         "description": "This portfolio site, built with Next.js and Tailwind CSS, showcases my skills and projects. It features sections for downloading/viewing my resume, learning about me, contacting me, and exploring my work. Deployed via Vercel, it's a comprehensive snapshot of my professional journey.",
         "url": "#",
-        "github": "https://github.com/Kishanthakur/portfolio-site",
+        "github": "https://github.com/kishanthakur/portfolio-site",
         "image": "/image-project2.png",
         "technologies" :[
         { 
@@ -123,7 +123,7 @@
         "alt": "Github",
         "heading": "Github",
         "subheading": "All my repos",
-        "url" : "https://github.com/Kishanthakur"
+        "url" : "https://github.com/kishanthakur"
       },
       {
         "icon": "/icon-email.png",
@@ -143,6 +143,6 @@
   },
   "footer": {
 		"linkedin": "https://www.linkedin.com/in/kishan-thakur-a97392182/",
-		"github": "https://github.com/Kishanthakur"
+		"github": "https://github.com/kishanthakur"
 	}
 }
