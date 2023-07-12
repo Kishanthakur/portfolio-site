@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple steps.
 ### Installation
 
 1. Clone the repo
-   git clone https://github.com/[kishanthakur]/[portfolio-site].git
+   git clone https://github.com/kishanthakur/portfolio-site.git
 
 2. Install NPM packages
    npm install
