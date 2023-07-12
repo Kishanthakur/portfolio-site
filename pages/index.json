@@ -33,15 +33,15 @@
       },
       { 
         "alt" : "JavaScript",
-        "image" : "/icon-javascript2.png"
+        "image" : "/icon-javascript3.png"
       },
       { 
         "alt" : "HTML",
-        "image" : "/icon-html.png"
+        "image" : "/icon-html3.png"
       },
       { 
         "alt" : "CSS",
-        "image" : "/icon-css.png"
+        "image" : "/icon-css2.png"
       },
       { 
         "alt" : "Java",
@@ -73,11 +73,11 @@
         },
         { 
           "alt" : "JavaScript",
-          "image" : "/icon-javascript2.png"
+          "image" : "/icon-javascript3.png"
         },
         { 
           "alt" : "CSS",
-          "image" : "/icon-css.png"
+          "image" : "/icon-css2.png"
         },
         {
           "alt" : "Firebase",

@@ -28,13 +28,13 @@ const About = () => {
                 return (
                   <div
                     key={skill.alt}
-                    className="group flex flex-col items-center relative w-1/5 md:w-auto"
+                    className="group flex flex-col items-start relative w-1/5 md:w-auto"
                   >
-                    <div>
+                    <div className="mb-3">
                       <Image
                         src={skill.image}
                         alt={skill.alt}
-                        className="w-14 h-14"
+                        className="w-16 h-16"
                         width={48}
                         height={48}
                       />
