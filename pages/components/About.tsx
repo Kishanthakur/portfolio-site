@@ -18,7 +18,7 @@ const About = () => {
           <Image src={about.image} alt="about" width={300} height={300} />
         </div>
         <div className="pt-8 md:py-0 md:w-1/2 text-white md:ml-4 text-center md:text-left">
-          <div className="about__primary">
+          <div>
             <span>{about.primary}</span>
           </div>
           <div className="mt-6">
@@ -53,7 +53,7 @@ const About = () => {
             <a
               href="https://flowcv.com/resume/he6814bsp5"
               target="_blank"
-              className="about__resume text-white text-l"
+              className=" text-white text-l"
             >
               View Resume
             </a>

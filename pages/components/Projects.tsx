@@ -10,7 +10,7 @@ const Projects = () => {
       <h1 className="pt-12 uppercase font-bold text-center text-black text-bold text-4xl">
         {projects.title}
       </h1>
-      <div className="projects__menu">
+      <div>
         <ul>
           {projects.projects.map((item) => (
             <li
