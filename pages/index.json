@@ -61,7 +61,36 @@
     "title": "Projects",
     "projects": [
       {
-        "title": "1. Marketing Data collection Web App",
+        "title": "1. HREF Social",
+        "description": "href social is a web application that allows users to create personalized link pages with their various social media profiles and websites.",
+        "url": "https://href-social.vercel.app/",
+        "github": "https://github.com/kishanthakur/href-social",
+        "image": "/image-project-3.png",
+        "technologies" :[
+        { 
+          "alt" : "ReactJS",
+          "image" : "/icon-reactjs.png"
+        },
+        { 
+          "alt" : "JavaScript",
+          "image" : "/icon-javascript3.png"
+        },
+        { 
+          "alt" : "Tailwind CSS",
+          "image" : "/icon-tailwindcss.png"
+        },
+        {
+          "alt" : "Redux Toolkit",
+          "image" : "/icon-redux.png"
+        },
+        {
+          "alt" : "MongoDB Atlas",
+          "image" : "/icon-mongodb.png"
+        }
+      ]
+      },
+      {
+        "title": "2. Marketing Data collection Web App",
         "description": "The application includes a form for capturing customer details, tracking calls, and interest levels. Post submission, users are directed to a page displaying all data in a table for easy viewing and editing. A unique 'Today's Call' page shows contacts due for a call today, aiding in efficient daily management.",
         "url": "https://prashant-machine-tools.netlify.app/",
         "github": "https://github.com/kishanthakur/prashant-machine-tools",
@@ -86,7 +115,7 @@
       ]
       },
       {
-        "title": "2. Kishan Thakur - Portfolio Site",
+        "title": "3. Kishan Thakur - Portfolio Site",
         "description": "This portfolio site, built with Next.js and Tailwind CSS, showcases my skills and projects. It features sections for downloading/viewing my resume, learning about me, contacting me, and exploring my work. Deployed via Vercel, it's a comprehensive snapshot of my professional journey.",
         "url": "#",
         "github": "https://github.com/kishanthakur/portfolio-site",
