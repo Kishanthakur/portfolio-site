@@ -51,7 +51,7 @@ const About = () => {
           </div>
           <div className="mt-6 mx-auto md:mx-0 border-2 border-white py-1 px-2 w-36 text-center font-bold">
             <a
-              href="https://flowcv.com/resume/io4egprbkk"
+              href="https://flowcv.com/resume/cbwmqmnbuk"
               target="_blank"
               className=" text-white text-l"
             >
